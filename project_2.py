@@ -59,12 +59,13 @@ def generate_result(number):
     cow = 0
     bull = 0
     length = len(known_number)
-    elements = [known_number[i] for i in range(length)]
-    values = [number[i] for i in range(len(number))]
+
     if number == "exit":
         exit()
 
     if len(number) == length:
+        elements = [known_number[i] for i in range(length)]
+        values = [number[i] for i in range(len(number))]
         for i in range(length):
 
             if number[i] == known_number[i]:
