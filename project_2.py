@@ -58,15 +58,14 @@ known_number = generate_number(generate_input())
 def generate_result(number):
     cow = 0
     bull = 0
-    input_number = known_number
-    elements = [known_number[i] for i in range(len(input_number))]
+    elements = [known_number[i] for i in range(len(known_number))]
     values = [number[i] for i in range(len(number))]
     length = len(known_number)
     if number == "exit":
         exit()
 
     if len(number) == length:
-        for i in range(len(known_number)):
+        for i in range(length):
 
             if number[i] == known_number[i]:
                 elements.remove(number[i])
