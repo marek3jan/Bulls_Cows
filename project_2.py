@@ -58,9 +58,9 @@ known_number = generate_number(generate_input())
 def generate_result(number):
     cow = 0
     bull = 0
-    elements = [known_number[i] for i in range(len(known_number))]
-    values = [number[i] for i in range(len(number))]
     length = len(known_number)
+    elements = [known_number[i] for i in range(length)]
+    values = [number[i] for i in range(len(number))]
     if number == "exit":
         exit()
 
