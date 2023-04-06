@@ -61,7 +61,7 @@ def generate_result(number):
     input_number = known_number
     elements = [known_number[i] for i in range(len(input_number))]
     values = [number[i] for i in range(len(number))]
-    length = len(input_number)
+    length = len(known_number)
     if number == "exit":
         exit()
 
