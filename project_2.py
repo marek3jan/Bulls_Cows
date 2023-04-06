@@ -76,8 +76,8 @@ def generate_result(number):
         for i in range(len(values)):
             if values[i] in elements:
                 cow += 1
-        result = f"{bull} bulls, {cow} cows"
-        return result
+
+        return f"{bull} bulls, {cow} cows"
 
     else:
         return f"You have to type {length} digit number"
