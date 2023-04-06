@@ -6,7 +6,7 @@ git: marek3jan
 """
 
 # 1_Head_of_program - basic introduction:
-# -> imported module and introduction to game
+# - imported function and introduction to game
 # -> this program is designed to create a game Bulls and Cows
 # -> This game generates a random number in range of 3 to 5 digits
 # ->     at the beginning the program greets you and asks you to type a number of digits in range from 3 to 5
