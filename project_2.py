@@ -79,7 +79,7 @@ def generate_result(number):
         return result
 
     else:
-        return f"You have to type {len(known_number)} digit number"
+        return f"You have to type {length} digit number"
 
 
 def generate_game():
