@@ -114,7 +114,7 @@ def generate_game():
                 generate_result(guess)
 
             else:
-                print("", "Only digits are required!", "", sep="\n")
+                print("", f"{generate_result(guess)}", "", sep="\n")
                 guess = input("Enter a number (or exit): ")
                 generate_result(guess)
         return print("", f"Your score of guesses is: {guesses}", sep="\n")
