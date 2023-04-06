@@ -124,9 +124,9 @@ def generate_game():
 # - The last part of the script, generating the program to run in the desired order
 if __name__ == "__main__":
     generate_game()
-    next_step = input("Type YES if you want to continue: ")
+    next_step = input("Type YES if you want to repeat the game: ")
 
     while next_step == "YES" or next_step == "yes":
         known_number = generate_number(generate_input())
         generate_game()
-        next_step = input("Type YES if you want to continue: ")
+        next_step = input("Type YES if you want to repeat the game: ")
