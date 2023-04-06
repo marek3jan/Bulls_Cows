@@ -107,7 +107,7 @@ def generate_game():
         guess = input("Enter a number (or exit): ")
 
         while generate_result(guess) != f"{len(known_number)} bulls, 0 cows":
-            if guess.isdigit():
+            if guess.isdigit() and len(guess) == len(known_number):
                 print(" ", f"{generate_result(guess)}", sep="\n")
                 guess = input("Enter a number (or exit): ")
                 guesses += 1
