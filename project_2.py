@@ -53,8 +53,8 @@ known_number = generate_number(generate_input())
 
 
 #2b_Commentary: This script is designed to loop you through the program until you guessed the number right
-#              - however, in generate_result(number) function there is a chance to exit the program by typing exit
-#              -> therefore, each time you see a command -> Enter a number: -> you can finish the game by typing exit
+#              -> however, in generate_result(number) function there is a chance to exit the program by typing exit
+#              -> therefore, each time you see a command -> Enter a number (or exit): -> you can finish the game by typing exit
 def generate_result(number):
     cow = 0
     bull = 0
